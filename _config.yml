@@ -1,0 +1,22 @@
+#
+# _config.yml for jekyll-shoelace-blank
+#
+
+exclude: [ "CNAME", "README.md", "LICENSE.txt", "UNLICENSE.txt", "tmp", "*.sh", "**/*_src*" ]
+permalink: /blog/:year/:month/:day/:title/index.:output_ext
+production_url: https://LATER.example.com
+title: LATER site 
+markdown: kramdown
+gems:
+  - jekyll-redirect-from
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+google_analytics_id: LATER
+google_validation: LATER
+bing_validation: LATER
+yandex_validation: LATER

@@ -1,0 +1,50 @@
+- name: Font Awesome
+  description: Icon font
+  url: https://fortawesome.github.io/Font-Awesome/
+  id: font-awesome
+
+- name: Google Analytics
+  description: Privacy violations
+  url: http://www.google.com/analytics/
+  id: google_analytics
+
+- name: git
+  description: Version control
+  url: https://git-scm.com/
+  id: git-scm
+
+- name: Github
+  description: git hosting
+  url: https://www.github.com/
+  id: github
+
+- name: Jekyll
+  description: Static site generator
+  url: https://jekyllrb.com/
+  id: jekyllrb
+
+- name: jQuery
+  description: JavaScript library
+  url: https://jquery.com/
+  id: jquery
+
+- name: Google Noto Font
+  description: Under Construction FavIcon
+  url: https://github.com/googlei18n/noto-emoji/blob/master/svg/emoji_u1f6a7.svg
+  id: google
+
+- name: Shoelace
+  description: HTML/CSS Framework
+  url: http://shoelace.style/
+  id: shoelacestyle
+
+- name: W3C Markup Validation Service
+  description: HTML file validation
+  url: https://validator.w3.org/
+  id: w3c_validator
+
+- name: Wufoo
+  description: Contact form
+  url: http://www.wufoo.com/
+  id: wufoo
+
