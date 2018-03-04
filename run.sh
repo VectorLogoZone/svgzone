@@ -2,4 +2,4 @@
 #
 # script to run on localhost
 #
-jekyll serve --watch
+jekyll serve --drafts --watch --source docs --port 4000
