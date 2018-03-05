@@ -1,0 +1,149 @@
+- id: antdesign
+  repo: ant-design/ant-design-icons
+  branch: master
+  directory: ''
+    
+- id: brightspaceui
+  repo: BrightspaceUI/icons
+  branch: master
+  directory: images
+    
+- id: cjpatoilo
+  repo: cjpatoilo/linearicons
+  branch: master
+  directory: dist/svg
+    
+- id: feathericons
+  repo: feathericons/feather
+  branch: master
+  directory: icons
+    
+- id: danklammer
+  repo: danklammer/bytesize-icons
+  branch: master
+  directory: dist/icons
+    
+- id: davidmerfield
+  repo: davidmerfield/Public-Icons
+  branch: master
+  directory: source/icons
+    
+- id: developmentseed
+  repo: developmentseed/collecticons-lib
+  branch: master
+  directory: collecticons/svg
+    
+- id: driftyco
+  repo: driftyco/ionicons
+  branch: master
+  directory: src
+    
+- id: erikflowers
+  repo: erikflowers/weather-icons
+  branch: master
+  directory: svg
+  rename: "^wi-(.*)$ $1"
+    
+- id: evilicons
+  repo: evil-icons/evil-icons/tree//
+  branch: master
+  directory: assets/icons
+  rename: "ei-(.*)$ $1"
+    
+- id: frexy
+  repo: frexy/glyph-iconset
+  branch: master
+  directory: svg
+  rename: "^si-glyph-(.*)$ $1"
+    
+- id: gameicons
+  repo: game-icons/icons
+  branch: master
+  directory: ''
+    
+- id: google
+  repo: google/material-design-icons
+  branch: master
+  directory: ''
+  filter: ".*/svg/production/.*48px.svg"
+    
+- id: iconic
+  repo: iconic/open-iconic
+  branch: master
+  directory: svg
+    
+- id: jetbrains
+  repo: JetBrains/icons
+  branch: master
+  directory: src
+    
+- id: keyamoon
+  repo: Keyamoon/IcoMoon-Free
+  branch: master
+  directory: SVG
+  rename: "^[0-9]{3}-(.*)$ $1"
+    
+- id: leungwensen
+  repo: leungwensen/svg-icon
+  branch: master
+  directory: dist/svg
+    
+- id: mariuszostrowski
+  repo: mariuszostrowski/subway
+  branch: master
+  directory: SVG
+    
+- id: michaelampr
+  repo: michaelampr/jam
+  branch: master
+  directory: svg
+    
+- id: paomedia
+  repo: paomedia/small-n-flat
+  branch: master
+  directory: svg
+    
+- id: primer
+  repo: primer/octicons
+  branch: master
+  directory: lib/svg
+    
+- id: rrzepp
+  repo: RRZE-PP/rrze-icon-set
+  branch: master
+  directory: ''
+    
+- id: scottdejonge
+  repo: scottdejonge/map-icons
+  branch: master
+  directory: src/icons
+    
+- id: somerandomdude
+  repo: somerandomdude/Iconic
+  branch: master
+  directory: vector/original
+    
+- id: stephenhutchings
+  repo: stephenhutchings/typicons.font
+  branch: master
+  directory: src/svg
+    
+- id: templarian
+  repo: Templarian/MaterialDesign
+  branch: master
+  directory: icons/svg
+    
+- id: uditkumar489
+  repo: uditkumar489/Icon-pack
+  branch: master
+  directory: ''
+    
+- id: xtoolkit
+  repo: xtoolkit/Micon
+  branch: master
+  directory: icons/mdl2
+  
+- id: zurb
+  repo: zurb/foundation-icon-fonts
+  branch: master
+  directory: svgs
