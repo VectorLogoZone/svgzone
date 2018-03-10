@@ -1,0 +1,26 @@
+---
+title: Repos with SVG Icons
+---
+<p>These are the repositories that are indexed here on svg.zone.</p>
+
+{% assign count = 0 %}
+<table class="table-bordered">
+	<thead>
+		<tr>
+			<th>Repo</th>
+			<th># of icons</th>
+			<th>Last commit</th>
+		</tr>
+	</thead>
+	<tbody>
+	{%- for repo in site.data.iconrepos -%}{% assign count = count | plus:1 %}
+		<tr>
+			<td><a href="https://www.github.com/{{repo.repo}}/tree/{{repo.branch}}/{{repo.directory}}">{{repo.repo}}</a></td>
+			<td>{{repo.count | default: "0" }}</td>
+			<td>{{repo.commit | default: "(unknown)"}}</td>
+		</tr>
+	{%- endfor -%}
+	</tbody>
+</table>
+
+<p># of repos: {{ count }}</p>

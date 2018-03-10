@@ -1,4 +1,160 @@
 ---
-title: Home Page
+title: SVG Icons
+h1: SVG Icon Search
+redirect_from: /index.html
 ---
-<p>LATER Welcome!  {{ page.url }}</p>
+<div class="row row-center" style="padding-bottom:20px;padding-top:20px;">
+	<div class="col-12 col-md-6">
+		<form action="get" class="form-inline" id="site_search">
+			<div class="input-group">
+				<input autocomplete="off" autofocus="autofocus" class="form-control" id="q" name="q" placeholder="Search terms" type="text">
+				<button type="submit" class="btn btn-primary">Search</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div class="row clearfix">
+	<div class="logo-container" id="search_results"></div>
+</div>
+
+<style>
+	.github-icon {
+		max-width: 120px;
+		height: 60px;
+		margin: 10px;
+		border: 1px solid grey;
+	}
+</style>
+
+<script src="/js/lunr.min.js"></script>
+<script>
+	$(function() {
+		// Initalize lunr with the fields it will be searching on. I've given title
+		// a boost of 10 to indicate matches on this field are more important.
+		lunr.tokenizer.seperator = /[\s\-_\.]+/
+		window.idx = lunr(function () {
+			this.field('id');
+			this.field('name');
+		});
+		window.idx.pipeline.remove(lunr.stopWordFilter);
+
+		// Download the data from the JSON file we generated
+		window.data = $.getJSON('searchindex.json');
+
+		// Wait for the data to load and add it to lunr
+		window.data.then(function(loaded_data){
+			$.each(loaded_data, function(index, value){
+				window.idx.add($.extend({ "id": index }, value));
+			});
+			console.log("data loaded");
+		});
+
+		var doSearch = function(query)
+		{
+			if (!query || query.length == 0)
+			{
+				$("#search_results").empty();
+				return;
+			}
+			console.log("searching for " + query);
+			var results = window.idx.search(query);
+			display_search_results(query, results);
+			return false;
+		};
+
+		$("#q").on('input propertychange paste', function() {
+			console.log("input paste");
+			var query = $("#q").val();
+			history.pushState({ "q": query}, "", "?q=" + query);
+			doSearch(query);
+		});
+
+		$("#q").on('xpropertychange', function() {
+			console.log("propertychange");
+			var query = $("#q").val();
+			doSearch(query);
+		});
+
+		// Event when the form is submitted
+		$("#site_search").submit(function() {
+			doSearch($("#q").val());
+			return false;
+		});
+
+		$(window).on("popstate", function(event) {
+			console.log("popstate");
+			if (event.originalEvent.state)
+			{
+				var query = event.originalEvent.state["q"];
+				$("#q").val(query);
+				doSearch(query);
+			}
+			else
+			{
+				$("#q").val("");
+				$("#search_results").empty();
+			}
+		});
+
+		function htmlEncode(value){
+			return $("<div>").text(value).html();
+		}
+
+
+		function getParameterByName(name) {
+			var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+			return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+		}
+
+		var query = getParameterByName("q");
+		if (query && query.length)
+		{
+			window.data.then(function() {
+				console.log("initial query");
+				$("#q").val(query);
+				doSearch(query);
+			});
+		}
+
+
+		function display_search_results(query, results) {
+			var $search_results = $("#search_results");
+
+			// Wait for data to load
+			window.data.then(function(loaded_data) {
+
+				// Are there any results?
+				if (results.length)
+				{
+					$search_results.empty(); // Clear any old results
+
+					if (results.length > 100) {
+						results.length = 100;
+					}
+
+					// Iterate over the results
+					results.forEach(function(result) {
+						var item = loaded_data[result.ref];
+
+						// Build a snippet of HTML for this result
+						var appendString = '<a href="' + item.src + '">'
+							+ '<img class="github-icon" title="' + item.name + '" src="' + item.img + '" />'
+							+ '</a> ';
+
+
+						// Add it to the results
+						$search_results.append(appendString);
+					});
+				}
+				else
+				{
+					$search_results.html('<div class="alert alert-warning">No results found for "' + htmlEncode(query) + '"</div>');
+				}
+			});
+		}
+	});
+</script>
+
+

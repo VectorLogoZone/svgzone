@@ -1,4 +1,4 @@
-- id: antdesign
+- id: xantdesign
   repo: ant-design/ant-design-icons
   branch: master
   directory: ''
@@ -42,19 +42,19 @@
   repo: erikflowers/weather-icons
   branch: master
   directory: svg
-  rename: "^wi-(.*)$ $1"
+  rename: "^wi-(.*)$"
     
 - id: evilicons
-  repo: evil-icons/evil-icons/tree//
+  repo: evil-icons/evil-icons
   branch: master
   directory: assets/icons
-  rename: "ei-(.*)$ $1"
+  rename: "ei-(.*)$"
     
 - id: frexy
   repo: frexy/glyph-iconset
   branch: master
   directory: svg
-  rename: "^si-glyph-(.*)$ $1"
+  rename: "^si-glyph-(.*)$"
     
 - id: gameicons
   repo: game-icons/icons
@@ -81,7 +81,7 @@
   repo: Keyamoon/IcoMoon-Free
   branch: master
   directory: SVG
-  rename: "^[0-9]{3}-(.*)$ $1"
+  rename: "^[0-9]{3}-(.*)$"
     
 - id: leungwensen
   repo: leungwensen/svg-icon
@@ -147,3 +147,4 @@
   repo: zurb/foundation-icon-fonts
   branch: master
   directory: svgs
+  rename: "^fi-(.*)$"

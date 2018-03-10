@@ -1,7 +1,10 @@
 *~
 .cache
+cache/
 *.class
 crash.log
+docs/icons/searchindex.json
+docs/icons/repos
 .env
 .idea/
 .jekyll-metadata
