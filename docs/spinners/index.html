@@ -1,0 +1,18 @@
+---
+title: SVG Spinners
+---
+
+<table class="table-bordered">
+{% assign sorted_pages = site.pages | sort:'url' %}
+{% for thePage in sorted_pages %}{% if thePage.url contains "/spinners/" %}{% if thePage.url != "/spinners/" %}
+		<tr>
+			<td><a href="{{thePage.url}}">{{thePage.title}}</a></td>
+			<td><div style="width:100px;height:100px">{{thePage.content}}</div></td>
+		</tr>
+{% endif %}{% endif %}{% endfor %}
+</table>
+<!--
+TODO:
+https://codepen.io/chrisgannon/pen/jPOWpe
+https://codepen.io/aurer/pen/jEGbA
+-->
