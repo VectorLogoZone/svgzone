@@ -7,7 +7,7 @@ permalink: /blog/:year/:month/:day/:title/index.:output_ext
 production_url: https://www.svg.zone
 title: SVG Zone
 markdown: kramdown
-gems:
+plugins:
   - jekyll-redirect-from
 defaults:
   -
