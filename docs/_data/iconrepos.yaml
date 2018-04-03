@@ -1,4 +1,9 @@
-- id: xantdesign
+- id: adamwhitcroft
+  repo: AdamWhitcroft/batch
+  branch: master
+  directory: SVG
+
+- id: antdesign
   repo: ant-design/ant-design-icons
   branch: master
   directory: ''
@@ -7,6 +12,11 @@
   repo: BrightspaceUI/icons
   branch: master
   directory: images
+
+- id: ccicons
+  repo: cc-icons/cc-icons
+  branch: master
+  directory: fonts/cc-icons-svg
     
 - id: cjpatoilo
   repo: cjpatoilo/linearicons
@@ -17,11 +27,21 @@
   repo: feathericons/feather
   branch: master
   directory: icons
+
+- id: danielbruce
+  repo: danielbruce/entypo
+  branch: master
+  repo: src/svg
     
 - id: danklammer
   repo: danklammer/bytesize-icons
   branch: master
   directory: dist/icons
+
+- id: daviddarnes
+  repo: daviddarnes/mac-cursors
+  repo: gh-pages
+  directory: svg
     
 - id: davidmerfield
   repo: davidmerfield/Public-Icons
@@ -49,7 +69,12 @@
   branch: master
   directory: assets/icons
   rename: "ei-(.*)$"
-    
+
+- id: fontello
+  repo: fontello/fontelico.font
+  branch: master
+  directory: src/svg
+
 - id: frexy
   repo: frexy/glyph-iconset
   branch: master
@@ -60,17 +85,38 @@
   repo: game-icons/icons
   branch: master
   directory: ''
+
+- id: gmgeo
+  repo: gmgeo/osmic
+  branch: master
+  directory: ''
     
 - id: google
   repo: google/material-design-icons
   branch: master
   directory: ''
   filter: ".*/svg/production/.*48px.svg"
-    
+
+- id: halfmage
+  repo: halfmage/raster
+  branch: master
+  directory: icons
+
 - id: iconic
   repo: iconic/open-iconic
   branch: master
   directory: svg
+
+- id: ionicteam
+  repo: ionic-team/ionicons
+  branch: master
+  directory: src
+
+
+- id: jackd248
+  repo: jackd248/weather-iconic
+  branch: master
+  directory: sources/SVG
     
 - id: jetbrains
   repo: JetBrains/icons
@@ -82,11 +128,27 @@
   branch: master
   directory: SVG
   rename: "^[0-9]{3}-(.*)$"
+
+- id: kickstandapps
+  repo: kickstandapps/WeatherIcons
+  branch: master
+  directory: "SVG Files"
     
 - id: leungwensen
   repo: leungwensen/svg-icon
   branch: master
   directory: dist/svg
+
+- id: lucijanblagonic
+  repo: lucijanblagonic/Washicons
+  repo: master
+  directory: svg
+  rename: "^wh-(.*)$"
+
+- id: manifestinteractive
+  repo: manifestinteractive/weather-underground-icons
+  branch: master
+  directory: dist/icons/solid-black/svg
     
 - id: mariuszostrowski
   repo: mariuszostrowski/subway
@@ -132,6 +194,11 @@
   repo: Templarian/MaterialDesign
   branch: master
   directory: icons/svg
+
+- id: templarianw
+  repo: Templarian/WindowsIcons
+  branch: master
+  directory: WindowsPhone/svg
     
 - id: uditkumar489
   repo: uditkumar489/Icon-pack
