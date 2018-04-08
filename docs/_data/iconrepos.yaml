@@ -23,15 +23,10 @@
   branch: master
   directory: dist/svg
     
-- id: feathericons
-  repo: feathericons/feather
-  branch: master
-  directory: icons
-
 - id: danielbruce
   repo: danielbruce/entypo
   branch: master
-  repo: src/svg
+  directory: src/svg
     
 - id: danklammer
   repo: danklammer/bytesize-icons
@@ -40,13 +35,15 @@
 
 - id: daviddarnes
   repo: daviddarnes/mac-cursors
-  repo: gh-pages
+  branch: gh-pages
   directory: svg
     
 - id: davidmerfield
   repo: davidmerfield/Public-Icons
   branch: master
   directory: source/icons
+
+  #https://github.com/designmodo/Flat-UI/tree/master/img/icons/svg
     
 - id: developmentseed
   repo: developmentseed/collecticons-lib
@@ -57,7 +54,12 @@
   repo: driftyco/ionicons
   branch: master
   directory: src
-    
+
+- id: encharm
+  repo: encharm/Font-Awesome-SVG-PNG
+  branch: master
+  directory: black/svg
+
 - id: erikflowers
   repo: erikflowers/weather-icons
   branch: master
@@ -69,6 +71,11 @@
   branch: master
   directory: assets/icons
   rename: "ei-(.*)$"
+
+- id: feathericons
+  repo: feathericons/feather
+  branch: master
+  directory: icons
 
 - id: fontello
   repo: fontello/fontelico.font
@@ -122,7 +129,12 @@
   repo: JetBrains/icons
   branch: master
   directory: src
-    
+
+- id: jxnblk
+  repo: jxnblk/geomicons-open
+  branch: master
+  directory: dist/icons
+
 - id: keyamoon
   repo: Keyamoon/IcoMoon-Free
   branch: master
@@ -141,7 +153,7 @@
 
 - id: lucijanblagonic
   repo: lucijanblagonic/Washicons
-  repo: master
+  branch: master
   directory: svg
   rename: "^wh-(.*)$"
 
@@ -149,6 +161,11 @@
   repo: manifestinteractive/weather-underground-icons
   branch: master
   directory: dist/icons/solid-black/svg
+
+- id: mapbox
+  repo: mapbox/maki
+  branch: master
+  directory: icons
     
 - id: mariuszostrowski
   repo: mariuszostrowski/subway
@@ -164,11 +181,11 @@
   repo: paomedia/small-n-flat
   branch: master
   directory: svg
-    
-- id: primer
-  repo: primer/octicons
+
+- id: reduxframework
+  repo: reduxframework/elusive-iconfont
   branch: master
-  directory: lib/svg
+  directory: dev/icons-svg
     
 - id: rrzepp
   repo: RRZE-PP/rrze-icon-set
@@ -215,3 +232,6 @@
   branch: master
   directory: svgs
   rename: "^fi-(.*)$"
+
+
+#NO: https://github.com/primer/octicons - moved to figma & needs script to export
