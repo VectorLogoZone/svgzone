@@ -119,7 +119,6 @@
   branch: master
   directory: src
 
-
 - id: jackd248
   repo: jackd248/weather-iconic
   branch: master
@@ -206,6 +205,11 @@
   repo: stephenhutchings/typicons.font
   branch: master
   directory: src/svg
+
+- id: tabler
+  repo: tabler/tabler
+  branch: dev
+  directory: dist/assets/images
     
 - id: templarian
   repo: Templarian/MaterialDesign
