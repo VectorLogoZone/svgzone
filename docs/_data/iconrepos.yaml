@@ -6,7 +6,7 @@
 - id: antdesign
   repo: ant-design/ant-design-icons
   branch: master
-  directory: ''
+  directory: 'packages/icons'
     
 - id: brightspaceui
   repo: BrightspaceUI/icons
