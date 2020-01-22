@@ -37,6 +37,7 @@ The icons themselves retain the licenses granted by their original owners. Each 
 
 ## To Do
 
+ - [ ] link to source (in footer) is broken
  - [ ] Yandex validation
  - [ ] 404 should be SVG
  - [ ] credits page
