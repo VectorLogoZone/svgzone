@@ -9,6 +9,9 @@ title: SVG Zone
 markdown: kramdown
 plugins:
   - jekyll-redirect-from
+redirect_from:
+  json: false
+theme: null
 defaults:
   -
     scope:
