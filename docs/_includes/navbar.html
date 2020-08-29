@@ -1,13 +1,18 @@
-<div class="container-fluid">
-	<div class="row row-center navbar">
-		<div class="navbar-brand col-6 col-lg-5">
-			<a href="/index.html"><img src="/favicon.svg" alt="{{site.title}} Logo" class="navbar-logo" /></a>
-			<a href="/index.html">{{site.title}}</a>
-		</div>
-		<div class="navbar-nav col-6 col-lg-5">
-			<a href="https://iconsear.ch/search.html">Icons</a>
-			<a href="https://logosear.ch/search.html">Logos</a>
-			<a href="/spinners/index.html">Spinners</a>
+<nav class="navbar navbar-expand-md navbar-dark border-bottom" style="background-color:#2c3e50;">
+	<div class="container-fluid">
+		<a href="/index.html"><img src="/favicon.svg" alt="{{site.title}} Logo" class="navbar-logo" /></a>
+		<a class="navbar-brand pl-3" href="/index.html">{{site.title}}</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+			aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+			<ul class="navbar-nav mt-2 mt-lg-0">
+				<li class="nav-item{% if page.path == "index.html"%} active{%endif%}"><a class="nav-link" href="/index.html">Home</a></li>
+				<li class="nav-item{% if page.path contains "zzz/"%} active{%endif%}"><a class="nav-link" href="https://iconsear.ch/search.htm/">Icons</a></li>
+				<li class="nav-item{% if page.path == "xxx.html"%} active{%endif%}"><a class="nav-link" href="https://logosear.ch/search.htm">Logos</a></li>
+				<li class="nav-item{% if page.path == "spinners/index.html"%} active{%endif%}"><a class="nav-link" href="/spinners/index.html">Spinners</a></li>
+			</ul>
 		</div>
 	</div>
-</div>
+</nav>
