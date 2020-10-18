@@ -26,6 +26,7 @@ Please follow the standard Github [Fork & Pull Request Workflow](https://gist.gi
 [![Google Analytics](https://www.vectorlogo.zone/logos/google_analytics/google_analytics-ar21.svg)](https://www.google.com/analytics "Traffic Measurement")
 [![Google Fonts](https://www.vectorlogo.zone/logos/google/google-ar21.svg)](https://google.com/fonts "Fonts and font hosting")
 [![Jekyll](https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-ar21.svg)](https://www.jekyllrb.com/ "Static website builder")
+[![NodePing](https://www.vectorlogo.zone/logos/nodeping/nodeping-ar21.svg)](https://nodeping.com?rid=201109281250J5K3P "Uptime monitoring")
 [![Sass](https://www.vectorlogo.zone/logos/sass-lang/sass-lang-ar21.svg)](https://sass-lang.com/ "CSS builder")
 [![SimpleShareIO](https://www.vectorlogo.zone/logos/simpleshareio/simpleshareio-ar21.svg)](https://simpleshare.io/ "Share links")
 [![VectorLogoZone](https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-ar21.svg)](https://www.vectorlogo.zone/ "Icons")
