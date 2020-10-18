@@ -1,13 +1,11 @@
 {%- if page.url == '/index.html' or page.url == '/' %}{% include meta-home.html %}
 	{% endif -%}
-	<meta name="referrer" content="always" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="referrer" content="unsafe-url" />
 	<link href="/css/style.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" href="/favicon.ico">
 	<script>if (window.top.location != window.location) { window.top.location.href = document.location.href; }</script>
 	<script src="/js/jquery-3.4.1{%- if jekyll.environment == "production" -%}.min{%endif%}.js"></script>
 	<script src="/js/bootstrap.bundle{%- if jekyll.environment == "production" -%}.min{%endif%}.js"></script>
