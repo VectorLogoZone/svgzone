@@ -4,12 +4,13 @@ title: Sitemap
 noindex: true
 layout: none
 ---
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xslt" ?>
+{% assign sorted_pages = site.pages | sort:'url' -%}
 <urlset
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for thePage in site.pages %}{% if thePage.noindex %}{% else %}	<url><loc>{{site.production_url}}{{ thePage.url }}</loc></url>
-{% endif %}{% endfor %}
-{% for post in site.posts %}{% if post.noindex %}{% else %}	<url><loc>{{site.production_url}}{{ post.url }}</loc></url>
+{% for thePage in sorted_pages %}{% if thePage.noindex %}{% else %}	<url><loc>{{site.production_url}}{{ thePage.url }}</loc></url>
 {% endif %}{% endfor %}
 </urlset>
