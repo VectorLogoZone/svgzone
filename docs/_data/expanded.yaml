@@ -1,0 +1,19 @@
+- name: AWS Icons
+  url: https://design.workday.com/
+  image: https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg
+  expanded: https://aws-icons.svg.zone/
+
+- name: Google Cloud Product Icons
+  url: https://cloud.google.com/icons
+  image: https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg
+  expanded: https://gcp-icons.svg.zone/
+
+- name: Paypal Product Logos
+  url: https://www.npmjs.com/package/@paypal/sdk-logos
+  image: https://www.vectorlogo.zone/logos/paypal/paypal-icon.svg
+  expanded: https://paypal-sdk-logos.svg.zone/
+
+- name: Workday Icons
+  url: https://www.npmjs.com/search?q=workday%20icons
+  image: https://www.vectorlogo.zone/logos/workday/workday-icon.svg
+  expanded: https://workday-icons.svg.zone/

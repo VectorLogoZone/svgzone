@@ -1,0 +1,70 @@
+- name: Mozilla Developer Network
+  image: https://www.vectorlogo.zone/logos/mozilla/mozilla-ar21.svg
+  description: Detailed SVG documentation on the Mozilla Developer Network
+  links:
+    - name: Documentation
+      url: https://developer.mozilla.org/en-US/docs/Web/SVG
+
+- name: W3C
+  image: https://www.vectorlogo.zone/logos/w3c/w3c-ar21.svg
+  description: SVG Working Group is in charge of the SVG standard
+  links:
+    - name: Official Specs
+      url: https://www.w3.org/TR/SVG11/
+    - name: v2 Draft
+      url: https://svgwg.org/svg2-draft/
+
+- name: SVGRepo
+  image: https://www.vectorlogo.zone/logos/svgrepo/svgrepo-ar21.svg
+  description: 500,000+ Open-licensed SVG images
+  links:
+    - name: Open
+      url: https://www.svgrepo.com/
+
+- name: Wikipedia
+  image: https://www.vectorlogo.zone/logos/wikipedia/wikipedia-ar21.svg
+  description: Overview and history of the SVG format
+  links:
+    - name: SVG
+      url: https://en.wikipedia.org/wiki/SVG
+
+- name: W3Schools
+  image: https://www.vectorlogo.zone/logos/w3schools/w3schools-ar21.svg
+  description: SVG tutorials and reference
+  links:
+    - name: Tutorial
+      url: https://www.w3schools.com/graphics/svg_intro.asp
+    - name: Reference
+      url: https://www.w3schools.com/html/html5_svg.asp
+
+- name: CSS Tricks
+  image: https://www.vectorlogo.zone/logos/css-tricks/css-tricks-ar21.svg
+  description: SVG tutorials and reference
+  links:
+    - name: Tutorial
+      url: https://css-tricks.com/using-svg/
+    - name: Course
+      url: https://css-tricks.com/lodge/svg/
+    - name: Reference
+      url: https://css-tricks.com/svg-properties-and-css/
+
+- name: Inkscape
+  image: https://www.vectorlogo.zone/logos/inkscape/inkscape-ar21.svg
+  description: Open-source vector graphics editor for Windows, Mac, and Linux
+  links:
+    - name: Home page
+      url: https://inkscape.org/
+    - name: Download
+      url: https://inkscape.org/release/
+
+- name: SVG Optimizer
+  image: https://www.vectorlogo.zone/logos/svgo/svgo-ar21.svg
+  description: Compress and optimize SVG files
+  links:
+    - name: Github
+      url: https://github.com/svg/svgo
+    - name: Online
+      url: https://jakearchibald.github.io/svgomg/
+
+# font blast
+

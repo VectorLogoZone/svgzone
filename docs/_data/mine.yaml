@@ -1,0 +1,49 @@
+
+- name: LogoSearch
+  image: https://www.vectorlogo.zone/logos/logosearch/logosearch-ar21.svg
+  description: Search through 200,000 SVG logos from over 100 sources
+  links:
+    - name: Search
+      url: https://logosear.ch/
+    - name: Others
+      url: https://logosear.ch/alternatives/index.html
+
+- name: IconSearch
+  image: https://www.vectorlogo.zone/logos/iconsearch/iconsearch-ar21.svg
+  description: Search through 100,000 SVG icons from over 100 sources
+  links:
+    - name: Search
+      url: https://iconsear.ch/
+    - name: Others
+      url: https://iconsear.ch/alternatives/index.html
+
+- name: FileFormat.Info
+  image: https://www.vectorlogo.zone/logos/fileformatinfo/fileformatinfo-ar21.svg
+  description: Convert SVG to/from other formats
+  links:
+    - name: PNG
+      url: https://www.fileformat.info/convert/image/svg2raster.htm
+    - name: ICO
+      url: https://favicon.fileformat.info/
+    - name: PDF
+      url: https://www.fileformat.info/convert/image/svg2pdf.htm
+
+- name: VectorLogoZone
+  image: https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-ar21.svg
+  description: 3,000+ consistently sized and formatted SVG logos
+  links:
+    - name: Search
+      url: https://www.vectorlogo.zone/
+
+- name: fflint
+  image: https://www.vectorlogo.zone/logos/fflint/fflint-ar21.svg
+  description: Command line/CI tool for validating SVG files
+  links:
+    - name: Documentation
+      url: https://www.fflint.dev/
+    - name: Download
+      url: https://github.com/FileFormatInfo/fflint/releases
+
+# lucky logos
+# logo of the day
+# expanded sets (on-site page

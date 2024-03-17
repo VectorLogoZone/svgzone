@@ -1,0 +1,31 @@
+---
+title: Expanded into SVGs
+---
+<div class="alert alert-info">
+	Files embedded with SVGs that I have expanded so you can see and use the individual SVGs.
+</div>
+
+<table class="table table-striped border-bottom">
+	<thead>
+		<tr>
+			<th></th>
+			<th>Name</th>
+			<th>Original</th>
+			<th>Expanded</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for item in site.data.expanded %}
+		<tr>
+			<td><img src="{{item.image}}" alt="{{item.name}}" style="height: 1.5em;"></td>
+			<td>{{item.name}}</td>
+			<td><a href="{{item.url}}">Original</a></td>
+			<td><a href="{{item.expanded}}">Expanded</a></td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+<div class="alert alert-info">
+	<a href="https://github.com/VectorLogoZone/svgzone/issues">Let me know</a> if you have any suggestions for additional SVGs to expand.
+</div>

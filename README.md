@@ -1,6 +1,6 @@
 # SVG Zone [<img alt="SVG Zone Logo" src="https://www.vectorlogo.zone/logos/w3_svg/w3_svg-tile.svg" height="96" align="right" />](https://www.svg.zone/)
 
-[SVG Zone](https://www.svg.zone/) is my website for anything related to SVG.
+[SVG Zone](https://www.svg.zone/) is my website for anything and everything related to SVG.
 
 ## Running
 
@@ -23,7 +23,6 @@ Please follow the standard Github [Fork & Pull Request Workflow](https://gist.gi
 [![Font Awesome](https://www.vectorlogo.zone/logos/font-awesome/font-awesome-ar21.svg)](https://fontawesome.com/ "Icon Font")
 [![Git](https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg)](https://git-scm.com/ "Version control")
 [![Github](https://www.vectorlogo.zone/logos/github/github-ar21.svg)](https://github.com/ "Code hosting")
-[![Google Analytics](https://www.vectorlogo.zone/logos/google_analytics/google_analytics-ar21.svg)](https://www.google.com/analytics "Traffic Measurement")
 [![Google Fonts](https://www.vectorlogo.zone/logos/google/google-ar21.svg)](https://google.com/fonts "Fonts and font hosting")
 [![Jekyll](https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-ar21.svg)](https://www.jekyllrb.com/ "Static website builder")
 [![NodePing](https://www.vectorlogo.zone/logos/nodeping/nodeping-ar21.svg)](https://nodeping.com?rid=201109281250J5K3P "Uptime monitoring")

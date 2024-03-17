@@ -9,9 +9,9 @@
 {%- include navbar.html -%}
 	<div class="container">
 		<h1>{% if page.h1 %}{{ page.h1 }}{% else %}{{ page.title }}{% endif %}{% if page.subtitle %} <small> - {{ page.subtitle }}</small>{% endif %}</h1>
+		<hr/>
 		{{ content }}
 	</div><!--/container-->
 {%- include footer.html -%}
-{%- include google-analytics.html -%}
 </body>
 </html>
