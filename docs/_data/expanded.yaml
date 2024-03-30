@@ -1,3 +1,8 @@
+- name: Animal Identicons
+  url: https://github.com/camelmasa/animal-identicon-js/
+  image: https://animal-identicons.svg.zone/favicon.svg
+  expanded: https://animal-identicons.svg.zone/
+
 - name: AWS Icons
   url: https://design.workday.com/
   image: https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg
