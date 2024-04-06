@@ -44,6 +44,13 @@
     - name: Download
       url: https://github.com/FileFormatInfo/fflint/releases
 
+- name: BIMI Explorer
+  image: https://www.vectorlogo.zone/logos/bimigroup/bimigroup-ar21.svg
+  description: Explore SVG logos designed for display alongside email addresses
+  links:
+    - name: Explore
+      url: https://bimi-explorer.svg.zone/
+
 # lucky logos
 # logo of the day
 # expanded sets (on-site page
