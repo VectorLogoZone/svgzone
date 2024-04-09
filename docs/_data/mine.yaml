@@ -17,6 +17,15 @@
     - name: Others
       url: https://iconsear.ch/alternatives/index.html
 
+- name: Logo of the Day
+  image: https://www.vectorlogo.zone/logos/vectorlogozone_lotd/vectorlogozone_lotd-ar21.svg
+  description: A random SVG logo every day.
+  links:
+    - name: Today
+      url: https://logo-of-the-day.vectorlogo.zone/
+    - name: Recent
+      url: https://logo-of-the-day.vectorlogo.zone/archive/
+
 - name: FileFormat.Info
   image: https://www.vectorlogo.zone/logos/fileformatinfo/fileformatinfo-ar21.svg
   description: Convert SVG to/from other formats
