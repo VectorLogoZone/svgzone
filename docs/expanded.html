@@ -6,21 +6,15 @@ title: Expanded into SVGs
 </div>
 
 <table class="table table-striped border-bottom">
-	<thead>
-		<tr>
-			<th></th>
-			<th>Name</th>
-			<th>Original</th>
-			<th>Expanded</th>
-		</tr>
-	</thead>
 	<tbody>
 		{% for item in site.data.expanded %}
 		<tr>
-			<td><img src="{{item.image}}" alt="{{item.name}}" style="height: 1.5em;"></td>
-			<td>{{item.name}}</td>
-			<td><a href="{{item.url}}">Original</a></td>
-			<td><a href="{{item.expanded}}">Expanded</a></td>
+			<td class="text-center"><a href="{{item.url}}"><img src="{{item.image}}" alt="{{item.name}}" style="height: 1.5em;"></a></td>
+			<td><a href="{{item.expanded}}">{{item.name}}</a></td>
+			<td class="text-right">
+				<a href="{{item.url}}">original</a>
+				| <a href="{{item.git}}">git repo</a>
+			</td>
 		</tr>
 		{% endfor %}
 	</tbody>

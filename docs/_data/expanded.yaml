@@ -2,23 +2,28 @@
   url: https://github.com/camelmasa/animal-identicon-js/
   image: https://animal-identicons.svg.zone/favicon.svg
   expanded: https://animal-identicons.svg.zone/
+  git: https://github.com/AwesomeLogos/animal-identicons
 
 - name: AWS Icons
   url: https://design.workday.com/
   image: https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg
   expanded: https://aws-icons.svg.zone/
+  git: https://github.com/AwesomeLogos/aws-icons
 
 - name: Google Cloud Product Icons
   url: https://cloud.google.com/icons
   image: https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg
   expanded: https://gcp-icons.svg.zone/
+  git: https://github.com/AwesomeLogos/google-cloud-icons
 
 - name: Paypal Product Logos
   url: https://www.npmjs.com/package/@paypal/sdk-logos
   image: https://www.vectorlogo.zone/logos/paypal/paypal-icon.svg
   expanded: https://paypal-sdk-logos.svg.zone/
+  git: https://github.com/AwesomeLogos/paypal-sdk-logos
 
 - name: Workday Icons
   url: https://www.npmjs.com/search?q=workday%20icons
   image: https://www.vectorlogo.zone/logos/workday/workday-icon.svg
   expanded: https://workday-icons.svg.zone/
+  git: https://github.com/AwesomeLogos/workday-icons
