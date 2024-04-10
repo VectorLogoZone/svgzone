@@ -11,7 +11,7 @@ h1: SVG Resources
 {%for item in site.data.mine %}
 	<div class="col mb-4">
 		<div class="card h-100">
-			<img src="{{item.image}}" class="card-img-top" alt="{{item.name}}">
+			<a href="{{item.links[0].url}}"><img src="{{item.image}}" class="card-img-top" alt="{{item.name}}"></a>
 			<div class="card-body">
 				<p class="card-text">
 					{{item.description}}

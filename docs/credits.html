@@ -1,27 +1,4 @@
 ---
-layout: default
-title: Credits
+noindex: true
+redirect_to: https://github.com/VectorLogoZone/svgzone/blob/main/README.md#credits
 ---
-
-<p>These are the things that I used to make and run this website</p>
-
-<p></p>
-
-<div class="row">
-    <table class="table table-striped">
-        <!--		<thead>
-                    <tr>
-                        <th>Item</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>-->
-        <tbody>
-        {% for credit in site.data.credits %}
-        <tr>
-            <td><a href="{{ credit.url }}"><img src="https://www.vectorlogo.zone/logos/{{ credit.id }}/{{credit.id}}-icon.svg" alt="{{credit.name}} Icon"></a></td>
-            <td><a href="{{ credit.url }}">{{ credit.name }}</a> - {{ credit.description }}</td>
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-</div>

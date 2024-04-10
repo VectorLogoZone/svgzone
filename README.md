@@ -25,23 +25,15 @@ Please follow the standard Github [Fork & Pull Request Workflow](https://gist.gi
 [![Github](https://www.vectorlogo.zone/logos/github/github-ar21.svg)](https://github.com/ "Code hosting")
 [![Google Fonts](https://www.vectorlogo.zone/logos/google/google-ar21.svg)](https://google.com/fonts "Fonts and font hosting")
 [![Jekyll](https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-ar21.svg)](https://www.jekyllrb.com/ "Static website builder")
+[![jQuery](https://www.vectorlogo.zone/logos/jquery/jquery-ar21.svg)](https://jquery.com/ "JavaScript library")
 [![NodePing](https://www.vectorlogo.zone/logos/nodeping/nodeping-ar21.svg)](https://nodeping.com?rid=201109281250J5K3P "Uptime monitoring")
 [![Sass](https://www.vectorlogo.zone/logos/sass-lang/sass-lang-ar21.svg)](https://sass-lang.com/ "CSS builder")
 [![SimpleShareIO](https://www.vectorlogo.zone/logos/simpleshareio/simpleshareio-ar21.svg)](https://simpleshare.io/ "Share links")
 [![VectorLogoZone](https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-ar21.svg)](https://www.vectorlogo.zone/ "Icons")
-
-
+[![Wufoo](https://www.vectorlogo.zone/logos/wufoo/wufoo-ar21.svg)](http://www.wufoo.com/ "Contact form")
 
 ## To Do
 
- - [ ] link to source (in footer) is broken
  - [ ] Yandex validation
- - [ ] 404 should be SVG
- - [ ] credits section on readme
  - [ ] contact page
- - [ ] readme
- - [ ] navbar highlight when current
- - [ ] ?spinners as separate images?
- - [ ] goatcounter
 
-sections: files, documentation, tutorials, links, news, code
