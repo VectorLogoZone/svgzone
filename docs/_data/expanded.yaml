@@ -22,6 +22,13 @@
   expanded: https://paypal-sdk-logos.svg.zone/
   git: https://github.com/AwesomeLogos/paypal-sdk-logos
 
+- name: Sensa Emoji
+  url: https://sensa.co/emoji/
+  image: https://www.vectorlogo.zone/logos/sensaco/sensaco-icon.svg
+  expanded: https://sensa-emoji.svg.zone/
+  git: https://github.com/AwesomeLogos/sensa-emoji
+
+
 - name: Workday Icons
   url: https://www.npmjs.com/search?q=workday%20icons
   image: https://www.vectorlogo.zone/logos/workday/workday-icon.svg

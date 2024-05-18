@@ -1,5 +1,10 @@
 # SVG Zone [<img alt="SVG Zone Logo" src="https://www.vectorlogo.zone/logos/w3_svg/w3_svg-tile.svg" height="96" align="right" />](https://www.svg.zone/)
 
+[![NodePing status](https://img.shields.io/nodeping/status/krfxxv6y-nsi8-4jaa-8w6m-5vtdfp0nkis3?label=Current%20status)](https://nodeping.com/reports/statusevents/check/201109281250J5K3P-33GJFGMM)
+[![NodePing uptime](https://img.shields.io/nodeping/uptime/krfxxv6y-nsi8-4jaa-8w6m-5vtdfp0nkis3?label=30-day%20uptime)](https://nodeping.com/reports/uptime/krfxxv6y-nsi8-4jaa-8w6m-5vtdfp0nkis3)
+[![pages-build-deployment](https://github.com/VectorLogoZone/svgzone/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/VectorLogoZone/svgzone/actions/workflows/pages/pages-build-deployment)
+[![CodeQL](https://github.com/VectorLogoZone/svgzone/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/VectorLogoZone/svgzone/actions/workflows/github-code-scanning/codeql)
+
 [SVG Zone](https://www.svg.zone/) is my website for anything and everything related to SVG.
 
 ## Running
