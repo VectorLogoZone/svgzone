@@ -59,7 +59,17 @@
   links:
     - name: Explore
       url: https://bimi-explorer.svg.zone/
+    - name: Spec
+      url: https://bimigroup.org/
+
+- name: SVG View
+  image: https://view.svg.zone/images/banner.svg
+  description: View SVG files in a browser
+  links:
+    - name: Open
+      url: https://view.svg.zone/
+    - name: Integrate
+      url: https://github.com/VectorLogoZone/svgview#integration
 
 # lucky logos
-# logo of the day
-# expanded sets (on-site page
+# expanded sets (on-site page)
